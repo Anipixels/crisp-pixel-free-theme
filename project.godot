@@ -1,0 +1,24 @@
+; Crisp Pixel Free Theme - demo project. Open this folder in Godot 4.3 or newer and press F5,
+; or copy addons/crisp_pixel_free into your own project.
+config_version=5
+
+[application]
+
+config/name="Crisp Pixel Free Theme"
+run/main_scene="res://addons/crisp_pixel_free/demo/pixel_free_demo.tscn"
+config/features=PackedStringArray("4.3")
+config/icon="res://icon.png"
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+window/size/window_width_override=1440
+window/size/window_height_override=810
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/stretch/scale_mode="integer"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
